@@ -31,6 +31,11 @@ Product[] items=new Product[5];
 
 }
 
+    public Product[] getAll() {
+        return items;
+    }
+
+
 
    public void removeAll(){
             for (int i = 0; i<items.length; i++){
